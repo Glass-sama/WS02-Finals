@@ -1,0 +1,184 @@
+@import url('https://fonts.cdnfonts.com/css/distant-galaxy');
+@import url('https://fonts.cdnfonts.com/css/agdasima');
+@import url('https://fonts.cdnfonts.com/css/lathic');
+
+
+html, body {
+  height: 100%;
+  color: white;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-image: url(mobile.jpg);
+}
+.head {
+  background-color: rgba(42, 23, 44, 0.685) ;
+}
+
+
+#indexp {
+  font-size: 1.3rem;
+}
+#headP{
+  font-family: 'Distant Galaxy', sans-serif;
+}
+
+#color1 {
+
+  color: #f53131;
+}
+#color2 {
+
+  color: #e7c735;
+}
+
+#color3 {
+
+  color: #a03cf1;
+}
+
+.fontH {
+  font-family: 'Distant Galaxy', sans-serif;
+  color: rgb(250, 250, 250);
+}
+
+.card-text{
+  
+  font-family: 'Lathic', sans-serif;
+  font-size: 20px;
+  color: #efefef;
+}
+
+#textp {
+  font-family: 'Lathic', sans-serif;
+  font-size: 1.6rem;
+}
+
+#picme {
+  border: 5px solid #8e1deb;
+  border-radius: 300px;
+  box-shadow: 0 0 20px #d941ff;
+}
+
+.lead{
+  font-family: 'Agdasima', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #efefef;
+}
+.navbar-light, 
+.navbar-toggler {
+  color: #e1abf7;
+  border-color: #c264ee;
+}
+
+.navbar-light, 
+.navbar-toggler:hover {
+  color: #e63ffc;
+}
+
+
+.nav-item a {
+  color: #ffffff;
+  font-family: 'Distant Galaxy', sans-serif;
+  font-size: 1.4rem;
+}
+
+.nav-item a:hover{
+  color: #b95ae6;
+}
+
+#on {
+  color: #b95ae6;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.card {
+  background-color: #8d5e896c;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 4px solid #9f35b9;
+  box-shadow: 0 0 25px #712385;
+}
+
+
+.card h5 {
+  color: rgb(253, 115, 2);
+}
+
+.btn-outline-dark{
+
+  color: #ffffff;
+  background-color: #b95ae6;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0 0 20px #d06ef7;
+}
+
+.btn-outline-dark:hover{
+
+  background-color: #b013f8;
+  border: 2px solid #1b1a1a;
+  box-shadow: 0 0 20px #f045f0;
+}
+
+.btn-primary {
+
+  background-color: #712385;
+  color-scheme: #efefef;
+  border: #712385;
+  box-shadow: 0 0 15px #796d83;
+}
+
+.btn-primary:hover {
+
+  background-color: #912e91;
+  color-scheme: #efefef;
+  border: #852375;
+  box-shadow: 0 0 15px #bb1deb;
+}
+
+.form-label{
+  font-family: 'Distant Galaxy', sans-serif;
+  color: #a03cf1;
+}
+
+footer{
+  flex-shrink: 0;
+}
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: rgba(42, 23, 44, 0.685);
+    min-height: 60vh;
+}
+ 
+.singleCol {
+    max-width: 750px;
+}
+
+footer {
+  background-color: rgba(43, 18, 46, 0.685) ;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #ff6ae6;
+}
+
+@media (max-width: 768px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
